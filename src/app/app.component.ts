@@ -1,11 +1,6 @@
 import { Component } from "@angular/core";
 import { Auto } from "./model/auto.model";
-
-enum SortBy {
-  NONE = "none",
-  UP = "up",
-  DOWN = "down"
-}
+import { SortBy } from "src/app/types/sort.enums";
 
 @Component({
   selector: "app-root",

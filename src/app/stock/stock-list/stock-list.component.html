@@ -1,5 +1,5 @@
 <div class="list">
-    <div class="item" *ngFor="let item of list">
+    <div class="item" *ngFor="let item of list  | sortBy : [sortProperty, sortType]">
         <gtav-stock-item (mouseenter)="onMouseEnterEmitSound() " [item]="item"></gtav-stock-item>
     </div>
 </div>
