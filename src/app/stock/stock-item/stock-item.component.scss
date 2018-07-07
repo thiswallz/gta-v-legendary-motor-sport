@@ -3,9 +3,54 @@
   height: 280px;
   background-color: white;
   position: relative;
+  border: 0.5px solid rgba(91, 91, 91, 0.8);
 }
 .box-title {
-  background-color: gray;
+  position: relative;
+  background: linear-gradient(to top, #dbdadc 50%, #f2f1ef 50%);
+  font-size: 16px;
+  height: 50px;
+  background-color: white;
+  color: black;
+  align-content: center;
+}
+.box-footer {
+  position: relative;
+  font-size: 16px;
+  height: 50px;
+  background-color: #030303;
+  color: #eaeaea;
+}
+.title-category {
+  padding-left: 5px;
+  width: 270px;
+  font-weight: bold;
+  line-height: 50px;
+  text-align: center;
+}
+.title-user {
+  position: absolute;
+  top: 5px;
+  right: 8px;
+  font-size: 12px;
+  color: #b1b1ad;
+}
+
+.title-user-icon {
+  position: absolute;
+  top: 7px;
+  right: 14px;
+  & .mat-icon {
+    font-size: 30px;
+  }
+  color: #b1b1ad;
+}
+.footer-price {
+  position: absolute;
+  top: 5px;
+  right: 8px;
+  font-size: 12px;
+  color: #b1b1ad;
 }
 .content-img {
   height: 180px;

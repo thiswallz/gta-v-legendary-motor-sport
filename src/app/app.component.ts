@@ -1,6 +1,12 @@
 import { Component } from "@angular/core";
 import { Auto } from "./model/auto.model";
 
+enum SortBy {
+  NONE = "none",
+  UP = "up",
+  DOWN = "down"
+}
+
 @Component({
   selector: "app-root",
   templateUrl: "./app.component.html",
@@ -8,7 +14,8 @@ import { Auto } from "./model/auto.model";
 })
 export class AppComponent {
   title = "app";
-  order: string = "price";
+  order: string = SortBy.NONE;
+
   autoList: Auto[] = [
     {
       id: 1,
@@ -46,4 +53,14 @@ export class AppComponent {
       users: 2
     }
   ];
+
+  sort() {
+    if (this.order === SortBy.NONE) {
+      this.order = SortBy.UP;
+    } else if (this.order === SortBy.UP) {
+      this.order = SortBy.DOWN;
+    } else {
+      this.order = SortBy.UP;
+    }
+  }
 }

@@ -6,16 +6,13 @@
 		<div class="main-title">
 			<div class="title-text">EXCLUSIVE STOCK </div>
 			<div class="title-sort">
-				<mat-form-field >
-					<mat-select [(value)]="order" >
-						<mat-option value="price">
-							Sort by Price	
-						</mat-option>
-						<mat-option value="name">
-							Sort by Name
-						</mat-option>
-					</mat-select>
-				</mat-form-field>
+				<div class="sort-field">
+					Sort by Price
+					<div class="options" (click)="sort()">
+						<div class="arrow" [ngClass]="'arrow-'+order">
+						</div>
+					</div>
+				</div>
 			</div>
 		</div>
 		<div class="main-content">

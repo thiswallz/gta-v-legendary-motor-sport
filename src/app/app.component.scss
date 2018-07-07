@@ -11,7 +11,6 @@
   border: 2px solid #8e0100;
   z-index: 2;
 }
-
 .top {
   width: 100%;
   position: absolute;
@@ -32,14 +31,12 @@
   font-size: 22px;
   color: white;
 }
-
 .main-content {
   padding-top: 30px;
   padding-left: 0px;
   font-size: 22px;
   color: white;
 }
-
 .title-sort {
   position: absolute;
   top: 20px;
@@ -48,6 +45,54 @@
 .title-text {
   position: absolute;
 }
-mat-form-field {
+.sort-field {
   width: 210px;
+  color: white;
+  font-family: "Muli", sans-serif;
+  font-size: 16px;
+  margin-left: 10px;
+  background: linear-gradient(#c40c12, #810107);
+  border: 1px solid #731a1b;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  padding: 6px 7px 12px;
+}
+
+.arrow {
+  border: solid white;
+  border-width: 0 2px 2px 0;
+  display: inline-block;
+  padding: 4px;
+}
+.arrow-up {
+  transform: rotate(-135deg);
+  -webkit-transform: rotate(-135deg);
+}
+
+.arrow-down {
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
+
+.arrow-none {
+  width: 5px !important;
+  height: 1px !important;
+  margin-right: 7px;
+  border-bottom: 1px solid #fff;
+  border-left: none !important;
+  border-right: none !important;
+  border-top: none !important;
+  top: 1px;
+  position: absolute;
+}
+
+.options {
+  height: 20px;
+  width: 20px;
+  cursor: pointer;
+  position: absolute;
+  right: 8px;
+  top: 3px;
+  margin-top: 4px;
 }
