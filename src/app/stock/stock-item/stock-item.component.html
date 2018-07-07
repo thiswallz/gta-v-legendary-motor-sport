@@ -1,0 +1,12 @@
+<div class="box">
+  <div class="box-title">
+      <div class="title-category">{{item.category}}</div>
+      <div class="title-user">{{item.users}}</div>
+  </div>
+  <div class="content-img" 
+  [ngStyle]="{'background-image': 'url(assets/auto/'+item.id+'.png)'}"></div>
+  <div class="box-footer">
+    <div class="footer-model">{{item.model}}</div>
+    <div class="footer-price">{{item.price}}</div>
+  </div>
+</div>
