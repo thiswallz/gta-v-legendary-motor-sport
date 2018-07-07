@@ -9,13 +9,13 @@
   margin-left: auto;
   min-height: 1100px;
   border: 2px solid #8e0100;
-  z-index: 9999;
+  z-index: 2;
 }
 
 .top {
   width: 100%;
   position: absolute;
-  z-index: 999;
+  z-index: 1;
   background-color: black;
   border-bottom-width: 4px;
   border-bottom-style: solid;
@@ -26,4 +26,20 @@
   margin: 0 auto;
 }
 .main-title {
+  position: relative;
+  padding-top: 30px;
+  padding-left: 20px;
+  font-size: 22px;
+  color: white;
+}
+.title-sort {
+  position: absolute;
+  top: 20px;
+  right: 10px;
+}
+.title-text {
+  position: absolute;
+}
+mat-form-field {
+  width: 210px;
 }
