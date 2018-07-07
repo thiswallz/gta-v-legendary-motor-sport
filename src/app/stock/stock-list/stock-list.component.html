@@ -1,6 +1,10 @@
 <div class="list">
     <div class="item" *ngFor="let item of list">
-        <gtav-stock-item [item]="item"></gtav-stock-item>
+        <gtav-stock-item (mouseenter)="onMouseEnterEmitSound() " [item]="item"></gtav-stock-item>
     </div>
 </div>
+<audio style="display:none;" controls preload="auto" #onMouseOverDefaultId>
+    <source src="assets/beep.mp3" controls />
+    <source src="assets/beep.ogg" controls />
+</audio> 
 

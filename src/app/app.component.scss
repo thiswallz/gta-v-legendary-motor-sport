@@ -1,28 +1,33 @@
+@import "../variables";
+
 .main-box {
-  position: absolute;
+  position: sticky;
   width: 1100px;
-  background-color: #240000;
+  background-color: $background-box-color;
   right: 0;
   left: 0;
-  margin-top: 330px;
+  margin-top: 280px;
   margin-right: auto;
   margin-left: auto;
   min-height: 1100px;
-  border: 2px solid #8e0100;
+  border: 1px solid $border-default-color;
   z-index: 2;
 }
-.top {
+.main-top {
+  top: 0px;
   width: 100%;
+  height: 380px;
   position: absolute;
   z-index: 1;
   background-color: black;
   border-bottom-width: 4px;
   border-bottom-style: solid;
-  border-bottom-color: #a3100c;
+  border-bottom-color: $border-default-color;
 }
 .top-img {
   display: block;
   margin: 0 auto;
+  height: 100%;
 }
 .main-title {
   position: relative;
@@ -51,8 +56,11 @@
   font-family: "Muli", sans-serif;
   font-size: 16px;
   margin-left: 10px;
-  background: linear-gradient(#c40c12, #810107);
-  border: 1px solid #731a1b;
+  background: linear-gradient(
+    $color-highlighted,
+    darken($color-highlighted, 20%)
+  );
+  border: 1px solid darken($color-highlighted, 25%);
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
   border-radius: 4px;
@@ -95,4 +103,14 @@
   right: 8px;
   top: 3px;
   margin-top: 4px;
+}
+.main-footer {
+  z-index: 3;
+  position: absolute;
+  width: 100%;
+  height: 280px;
+  background-color: black;
+  border-top-width: 4px;
+  border-top-style: solid;
+  border-top-color: $border-default-color;
 }

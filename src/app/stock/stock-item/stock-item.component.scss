@@ -1,10 +1,29 @@
+@import "../../../variables";
+
 .box {
+  cursor: pointer;
   width: 333px;
   height: 280px;
   background-color: white;
   position: relative;
-  border: 0.5px solid rgba(91, 91, 91, 0.8);
+  border-width: 0 2px 0 2px;
+  border-style: solid;
+  -webkit-border-image: -webkit-gradient(
+      linear,
+      0 100%,
+      0 0,
+      from(black),
+      to(rgba(0, 0, 0, 0))
+    )
+    1 100%;
+  -webkit-border-image: -webkit-linear-gradient(bottom, black, rgba(0, 0, 0, 0))
+    1 100%;
+  -moz-border-image: -moz-linear-gradient(bottom, black, rgba(0, 0, 0, 0)) 1
+    100%;
+  -o-border-image: -o-linear-gradient(bottom, black, rgba(0, 0, 0, 0)) 1 100%;
+  border-image: linear-gradient(to top, black, rgba(0, 0, 0, 0)) 1 100%;
 }
+
 .box-title {
   position: relative;
   background: linear-gradient(to top, #dbdadc 50%, #f2f1ef 50%);
@@ -12,28 +31,29 @@
   height: 50px;
   background-color: white;
   color: black;
-  align-content: center;
+  display: table-cell;
+  vertical-align: middle;
+  width: 333px;
 }
 .box-footer {
   position: relative;
   font-size: 16px;
   height: 50px;
-  background-color: #030303;
-  color: #eaeaea;
+  background-color: $background-footer-color;
 }
 .title-category {
   padding-left: 5px;
   width: 270px;
   font-weight: bold;
-  line-height: 50px;
-  text-align: center;
+  line-height: 26px;
+  text-align: left;
 }
 .title-user {
   position: absolute;
   top: 5px;
   right: 8px;
   font-size: 12px;
-  color: #b1b1ad;
+  color: $color-default;
 }
 
 .title-user-icon {
@@ -43,18 +63,39 @@
   & .mat-icon {
     font-size: 30px;
   }
-  color: #b1b1ad;
+  color: $color-default;
 }
 .footer-price {
   position: absolute;
   top: 5px;
   right: 8px;
   font-size: 12px;
-  color: #b1b1ad;
+  color: $color-default;
+}
+.footer-model {
+  padding: 13px;
 }
 .content-img {
   height: 180px;
   widows: 330px;
   background-repeat: no-repeat;
   background-size: 100% 100%;
+}
+.footer-price {
+  top: 0px;
+  right: 0px;
+  position: absolute;
+  height: 100%;
+  width: 100px;
+  color: white;
+  background: linear-gradient(
+    $color-highlighted,
+    darken($color-highlighted, 20%)
+  );
+  font-size: 1.08em;
+}
+
+.footer-text {
+  padding: 5px;
+  padding-top: 12px;
 }

@@ -21,12 +21,12 @@ export class AppComponent {
       id: 1,
       model: "Karin 190z",
       category: "Part of The Doomsday Heist",
-      price: 900000,
+      price: 1900220,
       users: 2
     },
     {
       id: 2,
-      model: "Pfister 811",
+      model: "Pfister 811 3232 44122 4545222 22",
       category: "Part of Finance and Felony",
       price: 1135000,
       users: 2
@@ -53,6 +53,18 @@ export class AppComponent {
       users: 2
     }
   ];
+
+  constructor() {
+    for (var i = 0; i <= 20; i++) {
+      this.autoList.push({
+        id: 2,
+        model: "Pfister 811",
+        category: "Part of Finance and Felony",
+        price: 1135000,
+        users: 2
+      });
+    }
+  }
 
   sort() {
     if (this.order === SortBy.NONE) {
