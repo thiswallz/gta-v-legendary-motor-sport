@@ -32,11 +32,7 @@ export class CircleListColorComponent implements OnInit {
 
   select(index: number) {
     this.list = this.list.map((circle, i) => {
-      if (i === index) {
-        circle.selected = true;
-      } else {
-        circle.selected = false;
-      }
+      circle.selected = i === index ? true : false;
       return circle;
     });
   }
