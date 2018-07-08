@@ -1,0 +1,15 @@
+<div class="main-title">
+  <div class="title-text">EXCLUSIVE STOCK </div>
+  <div class="title-sort">
+    <div class="sort-field">
+      Sort by Price
+      <div class="options" (click)="sort()">
+        <div class="arrow" [ngClass]="'arrow-'+order">
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="main-content">
+  <gtav-stock-list [order]="order" [list]="autoList"></gtav-stock-list>
+</div> 

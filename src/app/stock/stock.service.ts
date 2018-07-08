@@ -1,7 +1,7 @@
 import { Injectable } from "@angular/core";
 import { HttpParams } from "@angular/common/http";
 import { Observable } from "rxjs";
-import { map } from "rxjs/operators";
+import { filter, map } from "rxjs/operators";
 import { ApiService, Auto } from "src/app/core";
 
 @Injectable({
@@ -15,5 +15,11 @@ export class StockService {
 
   getAll(): Observable<Auto[]> {
     return this.apiService.get("data/cars.json").pipe(map(data => data));
+  }
+
+  get(id: number): Observable<Auto> {
+    return this.apiService
+      .get("data/cars.json")
+      .pipe(map(data => data.filter(auto => auto.id === id)[0]));
   }
 }

@@ -99,7 +99,7 @@
     {
       "id": 8,
       "model": "Übermacht SC1",
-      "brand": "Übermacht",
+      "brand": "Ubermacht",
       "statistics":{
         "speed": 85.31,
         "acceleration": 77.50,
@@ -365,7 +365,7 @@
     {
       "id": 27,
       "model": "Överflöd Entity XXR",
-      "brand": "Överflöd",
+      "brand": "Overflod",
       "statistics":{
         "speed": 91.21,
         "acceleration": 88.75,

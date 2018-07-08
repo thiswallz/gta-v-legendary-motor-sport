@@ -5,8 +5,8 @@ import {
   ElementRef,
   ViewChild
 } from "@angular/core";
-import { SortType, SortBy, SortColumn } from "src/app/types/sort.enums";
-import { Auto } from "src/app/core";
+import { Auto, SortColumn, SortType, SortBy } from "src/app/core";
+import { Router } from "@angular/router";
 
 @Component({
   selector: "gtav-stock-list",
@@ -20,10 +20,14 @@ export class StockListComponent implements OnChanges {
   sortProperty: string = SortColumn.ID;
   sortType: string = SortType.ASC;
 
-  constructor() {}
+  constructor(private router: Router) {}
 
   ngOnChanges() {
     this.sort(this.order);
+  }
+
+  onGoDetail(id: number) {
+    this.router.navigate([`/car-details${id}`]);
   }
 
   onMouseEnterEmitSound() {

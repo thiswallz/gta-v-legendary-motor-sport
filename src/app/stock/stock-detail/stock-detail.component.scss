@@ -1,0 +1,35 @@
+@import "../../../variables";
+
+.main-title {
+  position: relative;
+  padding-top: 30px;
+  padding-left: 20px;
+  font-size: 22px;
+  color: white;
+}
+.main-content {
+  padding-top: 30px;
+  padding-left: 0px;
+  font-size: 22px;
+  color: white;
+}
+.title-price {
+  position: absolute;
+  top: 25px;
+  right: 30px;
+  font-size: 28px;
+}
+.title-text {
+  position: absolute;
+  left: 130px;
+  top: 25px;
+  font-size: 28px;
+}
+.title-brand {
+  position: absolute;
+  top: 15px;
+}
+.img-brand {
+  max-width: 80px;
+  max-height: 60px;
+}

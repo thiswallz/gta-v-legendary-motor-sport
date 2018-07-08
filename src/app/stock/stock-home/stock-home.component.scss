@@ -1,0 +1,77 @@
+@import "../../../variables";
+
+.main-title {
+  position: relative;
+  padding-top: 30px;
+  padding-left: 20px;
+  font-size: 22px;
+  color: white;
+}
+.main-content {
+  padding-top: 30px;
+  padding-left: 0px;
+  font-size: 22px;
+  color: white;
+}
+.title-sort {
+  position: absolute;
+  top: 20px;
+  right: 10px;
+}
+.title-text {
+  position: absolute;
+}
+.sort-field {
+  width: 210px;
+  color: white;
+  font-family: "Muli", sans-serif;
+  font-size: 16px;
+  margin-left: 10px;
+  background: linear-gradient(
+    $color-highlighted,
+    darken($color-highlighted, 20%)
+  );
+  border: 1px solid darken($color-highlighted, 25%);
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  padding: 6px 7px 12px;
+}
+
+.arrow {
+  border: solid white;
+  border-width: 0 2px 2px 0;
+  display: inline-block;
+  padding: 4px;
+}
+.arrow-asc {
+  transform: rotate(-135deg);
+  -webkit-transform: rotate(-135deg);
+}
+
+.arrow-desc {
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
+
+.arrow-none {
+  width: 5px !important;
+  height: 1px !important;
+  margin-right: 7px;
+  border-bottom: 1px solid #fff;
+  border-left: none !important;
+  border-right: none !important;
+  border-top: none !important;
+  top: 1px;
+  position: absolute;
+}
+
+.options {
+  height: 20px;
+  width: 20px;
+  cursor: pointer;
+  position: absolute;
+  right: 8px;
+  top: 3px;
+  margin-top: 4px;
+}
