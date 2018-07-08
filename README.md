@@ -1,11 +1,11 @@
-### LegendaryMotorSport .net  in Angular 6
+### :fire: LegendaryMotorSport .net  in Angular 6 :fire:
 
 All features created from scratch, without UI libraries.
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.0.8.
 
 ### Web App
-#### Includes (These features are in Angular)
+#### Includes (These features are made in Angular)
 
 - [x] Components, Services, Pipes, Models, Types and more
 - [x] Routing (same URLs)
@@ -17,15 +17,15 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 - [x] Selectable circle color component 
 
 
-#### Home! (Everything like the original website)
+##### :blue_car: Home! (Everything like the original website)
 
 ![Alt text](demo/sprint1.png?raw=true 'Home' )
 
-#### Home (sorting component working)
+##### :red_car: Home (sorting component working)
 
 ![Alt text](demo/sprint2.png?raw=true 'Home')
 
-#### Details page (colors, name, price and stats components working)
+##### :oncoming_police_car: Details page (colors, name, price and stats components are working)
 
 ![Alt text](demo/sprint3.png?raw=true 'Home')
 
@@ -64,7 +64,7 @@ Example JSON cars
 ```
 
 
-## Installing/Running
+## :tada: Installing/Running
 
 It is a normal angular 6 project without any special dependencies.
 
