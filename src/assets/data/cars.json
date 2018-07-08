@@ -1,0 +1,218 @@
+[{
+      "id": 1,
+      "model": "Karin 190z",
+      "brand": "Karin",
+      "category": "Part of The Doomsday Heist",
+      "price": 1900220,
+      "users": 2
+    },
+    {
+      "id": 2,
+      "model": "Pfister 811",
+      "brand": "Pfister",
+      "category": "Part of Finance and Felony",
+      "price": 1135000,
+      "users": 2
+    },
+    {
+      "id": 3,
+      "model": "Coil Brawler",
+      "brand": "Coil",
+      "category": "Part of Ill-Gotten Gains Part 2",
+      "price": 715000,
+      "users": 2
+    },
+    {
+      "id": 4,
+      "model": "Gallivanter Baller LE LWB",
+      "brand": "Gallivanter",
+      "category": "Part of Executives and Other Criminals",
+      "price": 274000,
+      "users": 2
+    },
+    {
+      "id": 5,
+      "model": "Dewbauchee Massacro",
+      "brand": "Dewbauchee",
+      "category": "Part of the Business Update",
+      "price": 275000,
+      "users": 2
+    },
+    {
+      "id": 6,
+      "model": "Grotti X80 Proto",
+      "brand": "Grotti",
+      "category": "Part of Finance and Felony",
+      "price": 2700000,
+      "users": 2
+    },
+    {
+      "id": 7,
+      "model": "Enus Windsor",
+      "brand": "Enus",
+      "category": "Part of Ill-Gotten Gains Part 1",
+      "price": 845000,
+      "users": 2
+    },
+    {
+      "id": 8,
+      "model": "Übermacht SC1",
+      "brand": "Übermacht",
+      "category": "Part of The Doomsday Heist",
+      "price": 1603000,
+      "users": 2
+    },
+    {
+      "id": 9,
+      "model": "Grotti Turismo Classic",
+      "brand": "Grotti",
+      "category": "Part of Cunning Stunts: Special Vehicle Circuit",
+      "price": 700000,
+      "users": 2
+    },
+    {
+      "id": 10,
+      "model": "Lampadati Casco",
+      "brand": "Lampadati",
+      "category": "Part of the Heists Update",
+      "price": 904400,
+      "users": 2
+    },
+    {
+      "id": 11,
+      "model": "Dinka Vindicator",
+      "brand": "Dinka",
+      "category": "Part of Ill-Gotten Gains Part 2",
+      "price": 630000,
+      "users": 2
+    },
+    {
+      "id": 12,
+      "model": "Dewbauchee Rapid GT Classic",
+      "brand": "Dewbauchee",
+      "category": "Part of Smuggler's Run",
+      "price": 885000,
+      "users": 2
+    },
+    {
+      "id": 13,
+      "model": "Pegassi Zentorno",
+      "brand": "Pegassi",
+      "category": "Part of the High Life Update",
+      "price": 750000,
+      "users": 2
+    },
+    {
+      "id": 14,
+      "model": "Truffade Z-Type",
+      "brand": "Truffade",
+      "category": "Part of the History Mode",
+      "price": 10000000 ,
+      "users": 2
+    },
+    {
+      "id": 15,
+      "model": "Vapid Bullet",
+      "brand": "Vapid",
+      "category": "Part of the History Mode",
+      "price": 155000,
+      "users": 2
+    },
+    {
+      "id": 16,
+      "model": "Albany Virgo",
+      "brand": "Albany",
+      "category": "Part of Ill-Gotten Gains Part 1",
+      "price": 195000,
+      "users": 2
+    },
+    {
+      "id": 17,
+      "model": "Dewbauchee JB 700",
+      "brand": "Dewbauchee",
+      "category": "Part of the History Mode",
+      "price": 475000,
+      "users": 2
+    },
+    {
+      "id": 18,
+      "model": "Ocelot Penetrator",
+      "brand": "Ocelot",
+      "category": "Part of Import/Export",
+      "price": 880000,
+      "users": 2
+    },
+    {
+      "id": 19,
+      "model": "Bravado Banshee / Banshee Topless",
+      "brand": "Bravado",
+      "category": "Part of Import/Export",
+      "price": 105000,
+      "users": 2
+    },
+    {
+      "id": 20,
+      "model": "Dinka Thrust",
+      "brand": "Dinka",
+      "category": "Part of the High Life Update",
+      "price": 75000,
+      "users": 2
+    },
+    {
+      "id": 21,
+      "model": "Cheval Taipan",
+      "brand": "Cheval",
+      "category": "Part of SA Super Sport Series",
+      "price": 1980000,
+      "users": 2
+    },
+    {
+      "id": 22,
+      "model": "Grotti Cheetah Classic",
+      "brand": "Grotti",
+      "category": "Part of Gunrunning",
+      "price": 865000,
+      "users": 2
+    },
+    {
+      "id": 23,
+      "model": "Obey 9F",
+      "brand": "Obey",
+      "category": "Part of the History Mode",
+      "price": 120000,
+      "users": 2
+    },
+    {
+      "id": 24,
+      "model": "Invetero Coquette Classic",
+      "brand": "Invetero",
+      "category": "Part of Flight School",
+      "price": 395000,
+      "users": 2
+    },
+    {
+      "id": 25,
+      "model": "Enus Huntley S",
+      "brand": "Enus",
+      "category": "Part of the High Life Update",
+      "price": 195000,
+      "users": 2
+    },
+    {
+      "id": 26,
+      "model": "Ocelot Pariah",
+      "brand": "Ocelot",
+      "category": "Part of The Doomsday Heist",
+      "price": 1420000,
+      "users": 2
+    },
+    {
+      "id": 27,
+      "model": "Överflöd Entity XXR",
+      "brand": "Överflöd",
+      "category": "Part of SA Super Sport Series",
+      "price": 2305000,
+      "users": 2
+    }
+
+]

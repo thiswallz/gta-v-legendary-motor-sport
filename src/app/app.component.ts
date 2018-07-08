@@ -1,6 +1,7 @@
 import { Component } from "@angular/core";
-import { Auto } from "./model/auto.model";
 import { SortBy } from "src/app/types/sort.enums";
+import { Auto } from "./core";
+import { StockService } from "./stock/stock.service";
 
 @Component({
   selector: "app-root",
@@ -10,55 +11,12 @@ import { SortBy } from "src/app/types/sort.enums";
 export class AppComponent {
   title = "app";
   order: string = SortBy.NONE;
+  autoList: Auto[] = [];
 
-  autoList: Auto[] = [
-    {
-      id: 1,
-      model: "Karin 190z",
-      category: "Part of The Doomsday Heist",
-      price: 1900220,
-      users: 2
-    },
-    {
-      id: 2,
-      model: "Pfister 811 3232 44122 4545222 22",
-      category: "Part of Finance and Felony",
-      price: 1135000,
-      users: 2
-    },
-    {
-      id: 2,
-      model: "Pfister 811",
-      category: "Part of Finance and Felony",
-      price: 1135000,
-      users: 2
-    },
-    {
-      id: 2,
-      model: "Pfister 811",
-      category: "Part of Finance and Felony",
-      price: 1135000,
-      users: 2
-    },
-    {
-      id: 2,
-      model: "Pfister 811",
-      category: "Part of Finance and Felony",
-      price: 1135000,
-      users: 2
-    }
-  ];
-
-  constructor() {
-    for (var i = 0; i <= 20; i++) {
-      this.autoList.push({
-        id: 2,
-        model: "Pfister 811",
-        category: "Part of Finance and Felony",
-        price: 1135000,
-        users: 2
-      });
-    }
+  constructor(private stockService: StockService) {
+    this.stockService.getAll().subscribe(cars => {
+      this.autoList = [...cars, ...this.autoList];
+    });
   }
 
   sort() {

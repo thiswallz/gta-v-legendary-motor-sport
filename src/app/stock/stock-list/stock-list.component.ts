@@ -1,51 +1,51 @@
 import {
   Component,
-  OnInit,
   OnChanges,
   Input,
   ElementRef,
   ViewChild
 } from "@angular/core";
-import { Auto } from "src/app/model/auto.model";
-import { SortType, SortBy } from "src/app/types/sort.enums";
-
-const DEFAULT_SORT_COLUMN = "id";
-const DEFAULT_SORT_TYPE = SortType.ASC;
+import { SortType, SortBy, SortColumn } from "src/app/types/sort.enums";
+import { Auto } from "src/app/core";
 
 @Component({
   selector: "gtav-stock-list",
   templateUrl: "./stock-list.component.html",
   styleUrls: ["./stock-list.component.scss"]
 })
-export class StockListComponent implements OnInit, OnChanges {
+export class StockListComponent implements OnChanges {
   @ViewChild("onMouseOverDefaultId") audioPlayerRef: ElementRef;
   @Input() list: Auto[];
   @Input() order: string;
-  sortProperty: string = DEFAULT_SORT_COLUMN;
-  sortType: string = DEFAULT_SORT_TYPE;
+  sortProperty: string = SortColumn.ID;
+  sortType: string = SortType.ASC;
 
   constructor() {}
 
-  ngOnInit() {
-    console.log(this.list);
-  }
-
   ngOnChanges() {
-    console.log(this.order);
-    if (this.order === SortBy.UP) {
-      this.sortProperty = "price";
-      this.sortType = SortBy.UP;
-    } else if (this.order === SortBy.DOWN) {
-      this.sortProperty = "price";
-      this.sortType = SortBy.DOWN;
-    } else if (this.order === SortBy.NONE) {
-      this.sortProperty = DEFAULT_SORT_COLUMN;
-    }
+    this.sort(this.order);
   }
 
   onMouseEnterEmitSound() {
+    this.reproduce();
+  }
+
+  reproduce() {
     this.audioPlayerRef.nativeElement.pause();
     this.audioPlayerRef.nativeElement.currentTime = 0;
     this.audioPlayerRef.nativeElement.play();
+  }
+
+  sort(order: string) {
+    if (order === SortBy.UP || order === SortBy.DOWN) {
+      this.setDefaultProperty();
+      this.sortType = order === SortBy.UP ? SortBy.UP : SortBy.DOWN;
+    } else if (order === SortBy.NONE) {
+      this.sortProperty = SortColumn.ID;
+    }
+  }
+
+  setDefaultProperty() {
+    this.sortProperty = SortColumn.PRICE;
   }
 }

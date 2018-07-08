@@ -1,5 +1,5 @@
 import { Component, OnInit, Input } from "@angular/core";
-import { Auto } from "src/app/model/auto.model";
+import { Auto } from "src/app/core";
 
 @Component({
   selector: "gtav-stock-item",
@@ -8,6 +8,7 @@ import { Auto } from "src/app/model/auto.model";
 })
 export class StockItemComponent implements OnInit {
   @Input() item: Auto;
+  readonly highPrice = 9999999;
 
   constructor() {}
 

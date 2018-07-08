@@ -5,10 +5,12 @@ import { StockListComponent } from "./stock-list/stock-list.component";
 import { MatIconModule } from "@angular/material/icon";
 import { Truncate } from "src/app/pipes/truncate.pipe";
 import { SortPipe } from "src/app/pipes/sort.pipe";
+import { StockService } from "./stock.service";
 
 @NgModule({
   imports: [CommonModule, MatIconModule],
   declarations: [StockItemComponent, StockListComponent, Truncate, SortPipe],
-  exports: [StockItemComponent, StockListComponent]
+  exports: [StockItemComponent, StockListComponent],
+  providers: [StockService]
 })
 export class StockModule {}

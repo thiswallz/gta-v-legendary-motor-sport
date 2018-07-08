@@ -12,7 +12,11 @@
         {{ item.model | truncate:[20, '...'] | uppercase }}
     </div>
     <div class="footer-price">
-      <div class="footer-text">{{item.price  | currency:'USD':true:'1.0'}}</div>
+      <div 
+      class="footer-text" 
+      [class.high-price]="item.price>highPrice">
+      {{item.price  | currency:'USD':true:'1.0'}}
+    </div>
     </div>
   </div> 
 </div>

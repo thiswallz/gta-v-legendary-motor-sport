@@ -7,3 +7,8 @@ export enum SortBy {
   UP = "asc",
   DOWN = "desc"
 }
+
+export enum SortColumn {
+  ID = "id",
+  PRICE = "price"
+}
