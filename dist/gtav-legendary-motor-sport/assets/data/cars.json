@@ -1,0 +1,380 @@
+[{
+      "id": 1,
+      "model": "Karin 190z",
+      "brand": "Karin",
+      "statistics":{
+        "speed": 75.12,
+        "acceleration": 67.50,
+        "braking": 31.67,
+        "handling": 69.70
+      },      
+      "category": "Part of The Doomsday Heist",
+      "price": 1900220,
+      "users": 2
+    },
+    {
+      "id": 2,
+      "model": "Pfister 811",
+      "brand": "Pfister",
+      "statistics":{
+        "speed": 85.47,
+        "acceleration": 89,
+        "braking": 37.33,
+        "handling": 81.45
+      },   
+      "category": "Part of Finance and Felony",
+      "price": 1135000,
+      "users": 2
+    },
+    {
+      "id": 3,
+      "model": "Coil Brawler",
+      "brand": "Coil",
+      "statistics":{
+        "speed": 72.43,
+        "acceleration": 62.50,
+        "braking": 20.67,
+        "handling": 56.06
+      },  
+      "category": "Part of Ill-Gotten Gains Part 2",
+      "price": 715000,
+      "users": 2
+    },
+    {
+      "id": 4,
+      "model": "Gallivanter Baller LE LWB",
+      "brand": "Gallivanter",
+      "statistics":{
+        "speed": 72.43,
+        "acceleration": 67.50,
+        "braking": 19.00,
+        "handling": 60.61
+      },  
+      "category": "Part of Executives and Other Criminals",
+      "price": 274000,
+      "users": 2
+    },
+    {
+      "id": 5,
+      "model": "Dewbauchee Massacro",
+      "brand": "Dewbauchee",
+      "statistics":{
+        "speed": 82.09,
+        "acceleration": 90.25,
+        "braking": 30,
+        "handling": 74.24
+      },  
+      "category": "Part of the Business Update",
+      "price": 275000,
+      "users": 2
+    },
+    {
+      "id": 6,
+      "model": "Grotti X80 Proto",
+      "brand": "Grotti",
+      "statistics":{
+        "speed": 85.31,
+        "acceleration": 93.75,
+        "braking": 36.67,
+        "handling": 81.82
+      },  
+      "category": "Part of Finance and Felony",
+      "price": 2700000,
+      "users": 2
+    },
+    {
+      "id": 7,
+      "model": "Enus Windsor",
+      "brand": "Enus",
+      "statistics":{
+        "speed": 80.48,
+        "acceleration": 70,
+        "braking": 23.33,
+        "handling": 66.67
+      },  
+      "category": "Part of Ill-Gotten Gains Part 1",
+      "price": 845000,
+      "users": 2
+    },
+    {
+      "id": 8,
+      "model": "Übermacht SC1",
+      "brand": "Ubermacht",
+      "statistics":{
+        "speed": 85.31,
+        "acceleration": 77.50,
+        "braking": 37.33,
+        "handling": 80.30
+      },  
+      "category": "Part of The Doomsday Heist",
+      "price": 1603000,
+      "users": 2
+    },
+    {
+      "id": 9,
+      "model": "Grotti Turismo Classic",
+      "brand": "Grotti",
+      "statistics":{
+        "speed": 81.82,
+        "acceleration": 85,
+        "braking": 16.67,
+        "handling": 80.30
+      },  
+      "category": "Part of Cunning Stunts: Special Vehicle Circuit",
+      "price": 700000,
+      "users": 2
+    },
+    {
+      "id": 10,
+      "model": "Lampadati Casco",
+      "brand": "Lampadati",
+      "statistics":{
+        "speed": 81.02,
+        "acceleration": 80,
+        "braking": 20,
+        "handling": 69.70
+      },  
+      "category": "Part of the Heists Update",
+      "price": 904400,
+      "users": 2
+    },
+    {
+      "id": 11,
+      "model": "Dinka Vindicator",
+      "brand": "Dinka",
+      "statistics":{
+        "speed": 81.56,
+        "acceleration": 66.25,
+        "braking": 50,
+        "handling": 60
+      },  
+      "category": "Part of Ill-Gotten Gains Part 2",
+      "price": 630000,
+      "users": 2
+    },
+    {
+      "id": 12,
+      "model": "Dewbauchee Rapid GT Classic",
+      "brand": "Dewbauchee",
+      "statistics":{
+        "speed": 80.21,
+        "acceleration": 75,
+        "braking": 16.67,
+        "handling": 78.79
+      },  
+      "category": "Part of Smuggler's Run",
+      "price": 885000,
+      "users": 2
+    },
+    {
+      "id": 13,
+      "model": "Pegassi Zentorno",
+      "brand": "Pegassi",
+      "statistics":{
+        "speed": 85.31,
+        "acceleration": 88.75,
+        "braking": 33.33,
+        "handling": 80.30
+      },  
+      "category": "Part of the High Life Update",
+      "price": 750000,
+      "users": 2
+    },
+    {
+      "id": 14,
+      "model": "Truffade Z-Type",
+      "brand": "Truffade",
+      "statistics":{
+        "speed": 75.12,
+        "acceleration": 55,
+        "braking": 13.33,
+        "handling": 50
+      },  
+      "category": "Part of the History Mode",
+      "price": 10000000 ,
+      "users": 2
+    },
+    {
+      "id": 15,
+      "model": "Vapid Bullet",
+      "brand": "Vapid",
+      "statistics":{
+        "speed": 81.56,
+        "acceleration": 82.50,
+        "braking": 26.67,
+        "handling": 77.27
+      },  
+      "category": "Part of the History Mode",
+      "price": 155000,
+      "users": 2
+    },
+    {
+      "id": 16,
+      "model": "Albany Virgo",
+      "brand": "Albany",
+      "statistics":{
+        "speed": 75.12,
+        "acceleration": 70,
+        "braking": 26.67,
+        "handling": 77.58
+      },  
+      "category": "Part of Ill-Gotten Gains Part 1",
+      "price": 195000,
+      "users": 2
+    },
+    {
+      "id": 17,
+      "model": "Dewbauchee JB 700",
+      "brand": "Dewbauchee",
+      "statistics":{
+        "speed": 80.48,
+        "acceleration": 65,
+        "braking": 20,
+        "handling": 65.15
+      },  
+      "category": "Part of the History Mode",
+      "price": 475000,
+      "users": 2
+    },
+    {
+      "id": 18,
+      "model": "Ocelot Penetrator",
+      "brand": "Ocelot",
+      "statistics":{
+        "speed": 85.58,
+        "acceleration": 75,
+        "braking": 26.67,
+        "handling": 78.18
+      },  
+      "category": "Part of Import/Export",
+      "price": 880000,
+      "users": 2
+    },
+    {
+      "id": 19,
+      "model": "Bravado Banshee / Banshee Topless",
+      "brand": "Bravado",
+      "statistics":{
+        "speed": 79.41,
+        "acceleration": 85,
+        "braking": 33.33,
+        "handling": 73.33
+      },  
+      "category": "Part of Import/Export",
+      "price": 105000,
+      "users": 2
+    },
+    {
+      "id": 20,
+      "model": "Dinka Thrust",
+      "brand": "Dinka",
+      "statistics":{
+        "speed": 81.56,
+        "acceleration": 66.25,
+        "braking": 50,
+        "handling": 60
+      },  
+      "category": "Part of the High Life Update",
+      "price": 75000,
+      "users": 2
+    },
+    {
+      "id": 21,
+      "model": "Cheval Taipan",
+      "brand": "Cheval",
+      "statistics":{
+        "speed": 91.35,
+        "acceleration": 89.25,
+        "braking": 33.33,
+        "handling": 100
+      },  
+      "category": "Part of SA Super Sport Series",
+      "price": 1980000,
+      "users": 2
+    },
+    {
+      "id": 22,
+      "model": "Grotti Cheetah Classic",
+      "brand": "Grotti",
+      "statistics":{
+        "speed": 81.56,
+        "acceleration": 75,
+        "braking": 26.67,
+        "handling": 80.30
+      },  
+      "category": "Part of Gunrunning",
+      "price": 865000,
+      "users": 2
+    },
+    {
+      "id": 23,
+      "model": "Obey 9F",
+      "brand": "Obey",
+      "statistics":{
+        "speed": 83.17,
+        "acceleration": 82.50,
+        "braking": 33.33,
+        "handling": 77.27
+      },  
+      "category": "Part of the History Mode",
+      "price": 120000,
+      "users": 2
+    },
+    {
+      "id": 24,
+      "model": "Invetero Coquette Classic",
+      "brand": "Invetero",
+      "statistics":{
+        "speed": 81.02,
+        "acceleration": 85.00,
+        "braking": 16.67,
+        "handling": 69.70
+      },  
+      "category": "Part of Flight School",
+      "price": 395000,
+      "users": 2
+    },
+    {
+      "id": 25,
+      "model": "Enus Huntley S",
+      "brand": "Enus",
+      "statistics":{
+        "speed": 72.97,
+        "acceleration": 66.25,
+        "braking": 18.33,
+        "handling": 63.64
+      },  
+      "category": "Part of the High Life Update",
+      "price": 195000,
+      "users": 2
+    },
+    {
+      "id": 26,
+      "model": "Ocelot Pariah",
+      "brand": "Ocelot",
+      "statistics":{
+        "speed": 83.22,
+        "acceleration": 80.25,
+        "braking": 33.33,
+        "handling": 79.55
+      },  
+      "category": "Part of The Doomsday Heist",
+      "price": 1420000,
+      "users": 2
+    },
+    {
+      "id": 27,
+      "model": "Överflöd Entity XXR",
+      "brand": "Overflod",
+      "statistics":{
+        "speed": 91.21,
+        "acceleration": 88.75,
+        "braking": 33.33,
+        "handling": 100
+      }, 
+      "category": "Part of SA Super Sport Series",
+      "price": 2305000,
+      "users": 2
+    }
+
+]

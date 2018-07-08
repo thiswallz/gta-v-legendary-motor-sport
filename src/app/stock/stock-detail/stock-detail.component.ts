@@ -21,8 +21,7 @@ export class StockDetailComponent implements OnInit {
 
   constructor(
     private route: ActivatedRoute,
-    private stockService: StockService,
-    private window: Window
+    private stockService: StockService
   ) {
     this.route.params.subscribe(res => {
       const id: number = parseInt(carDetailsMatch(res.url)[2], 10);
@@ -34,7 +33,7 @@ export class StockDetailComponent implements OnInit {
   }
 
   ngOnInit() {
-    this.window.scrollTo(0, 0);
+    window.scrollTo(0, 0);
   }
 
   calculateStatistics() {

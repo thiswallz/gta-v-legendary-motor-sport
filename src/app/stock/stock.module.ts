@@ -19,6 +19,6 @@ import { ContainersModule } from "src/app/containers/containers.module";
     StockDetailComponent
   ],
   exports: [StockItemComponent, StockListComponent],
-  providers: [StockService, { provide: Window, useValue: window }]
+  providers: [StockService]
 })
 export class StockModule {}
