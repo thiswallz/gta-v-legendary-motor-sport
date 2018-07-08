@@ -15,7 +15,6 @@
           <div class="content-colors-title">
             SELECT FROM AVAILABLE COLORS TO ORDER
           </div>
-          
           <gtav-circle-list-color></gtav-circle-list-color>
         </div>
         <div class="content-statistics">
@@ -28,10 +27,14 @@
                 <gtav-statistics-list-bar [bars]="statistic.bars"></gtav-statistics-list-bar>
             </div>
           </div>
-          
         </div>
-        <div class="content-order"></div>
+        <div class="content-order">
+          <button class="btn-order">ORDER</button>
+        </div>
     </div>
-    <div class="content-foto"></div>
+    <div class="content-photo">
+        <img class="img-photo" src="assets/auto/{{auto.id}}_details.png" />
+
+    </div>
   </div> 
 </div>

@@ -21,7 +21,8 @@ export class StockDetailComponent implements OnInit {
 
   constructor(
     private route: ActivatedRoute,
-    private stockService: StockService
+    private stockService: StockService,
+    private window: Window
   ) {
     this.route.params.subscribe(res => {
       const id: number = parseInt(carDetailsMatch(res.url)[2], 10);
@@ -32,7 +33,9 @@ export class StockDetailComponent implements OnInit {
     });
   }
 
-  ngOnInit() {}
+  ngOnInit() {
+    this.window.scrollTo(0, 0);
+  }
 
   calculateStatistics() {
     this.addStatistic("Top Speed", "speed");
@@ -64,7 +67,6 @@ export class StockDetailComponent implements OnInit {
     if (amount >= indexBar * this.standarWidthBar) {
       return 100;
     } else if (substraction > 0) {
-      console.log(null, substraction);
       return (substraction * 100) / this.standarWidthBar;
     }
     return 0;

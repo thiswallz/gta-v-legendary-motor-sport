@@ -64,3 +64,28 @@
   padding-top: 5px;
   position: absolute;
 }
+.btn-order {
+  width: 100%;
+  color: white;
+  font-family: "Muli", sans-serif;
+  font-size: 16px;
+  margin-left: 1px;
+  background: linear-gradient(
+    $color-highlighted,
+    darken($color-highlighted, 20%)
+  );
+  border: 1px solid darken($color-highlighted, 25%);
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  padding: 9px 9px 12px;
+}
+
+.content-order {
+  padding-top: 25px;
+}
+
+.img-photo {
+  margin-left: 40px;
+  height: 650px;
+}
