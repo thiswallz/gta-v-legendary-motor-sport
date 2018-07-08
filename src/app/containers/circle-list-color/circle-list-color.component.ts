@@ -4,8 +4,9 @@ export class Color {
   color: string;
   selected: boolean;
 
-  constructor(color: string) {
+  constructor(color: string, selected: boolean) {
     this.color = color;
+    this.selected = selected;
   }
 }
 
@@ -26,7 +27,7 @@ export class CircleListColorComponent implements OnInit {
     this.add("#fdac08");
     this.add("#64cc33");
     this.add("#0364cc");
-    this.add("#181818");
+    this.add("#181818", true);
     this.add("#fefefe");
   }
 
@@ -37,7 +38,7 @@ export class CircleListColorComponent implements OnInit {
     });
   }
 
-  add(color: string) {
-    this.list = [...this.list, new Color(color)];
+  add(color: string, selected?: boolean) {
+    this.list = [...this.list, new Color(color, selected)];
   }
 }

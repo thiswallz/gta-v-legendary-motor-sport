@@ -7,6 +7,7 @@
 }
 .circle {
   @extend %circle-shape;
+  cursor: pointer;
   z-index: 1;
 }
 .circle-selected {

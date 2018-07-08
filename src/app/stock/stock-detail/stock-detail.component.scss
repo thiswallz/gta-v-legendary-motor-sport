@@ -46,3 +46,21 @@
   padding-top: 20px;
   width: 80%;
 }
+.content-colors {
+  position: relative;
+  height: 300px;
+}
+.content-stats-title {
+  font-size: 20px;
+}
+
+.statistics {
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+}
+.statistics-bar {
+  right: 5px;
+  padding-top: 5px;
+  position: absolute;
+}

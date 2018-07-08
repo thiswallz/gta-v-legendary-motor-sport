@@ -18,7 +18,18 @@
           
           <gtav-circle-list-color></gtav-circle-list-color>
         </div>
-        <div class="content-statistics"></div>
+        <div class="content-statistics">
+          <div class="content-stats-title">
+              Vehicle Stats
+          </div>
+          <div class="statistics" *ngFor="let statistic of statistics">
+            <div class="statistics-title">{{statistic.title}}</div>
+            <div class="statistics-bar" >
+                <gtav-statistics-list-bar [bars]="statistic.bars"></gtav-statistics-list-bar>
+            </div>
+          </div>
+          
+        </div>
         <div class="content-order"></div>
     </div>
     <div class="content-foto"></div>

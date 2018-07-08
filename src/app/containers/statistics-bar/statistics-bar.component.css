@@ -1,0 +1,10 @@
+.bar {
+  background-color: #644d4d;
+  height: 9px;
+  width: 40px;
+}
+
+.bar > div {
+  background-color: white;
+  height: 9px;
+}
