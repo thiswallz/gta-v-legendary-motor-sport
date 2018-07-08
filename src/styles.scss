@@ -10,6 +10,9 @@ body {
   margin-top: 6px;
   font-family: "Muli", sans-serif;
   overflow-x: hidden;
+  -webkit-box-shadow: inset -2px 117px 133px 12px rgba(0, 0, 0, 0.28);
+  -moz-box-shadow: inset -2px 117px 133px 12px rgba(0, 0, 0, 0.28);
+  box-shadow: inset -2px 117px 133px 12px rgba(0, 0, 0, 0.28);
 }
 
 /* Scrollbar Styling */
