@@ -23,7 +23,6 @@
   -o-border-image: -o-linear-gradient(bottom, black, rgba(0, 0, 0, 0)) 1 100%;
   border-image: linear-gradient(to top, black, rgba(0, 0, 0, 0)) 1 100%;
 }
-
 .box-title {
   position: relative;
   background: linear-gradient(to top, #dbdadc 50%, #f2f1ef 50%);
@@ -55,7 +54,6 @@
   font-size: 12px;
   color: $color-default;
 }
-
 .title-user-icon {
   position: absolute;
   top: 7px;
@@ -94,12 +92,10 @@
   );
   font-size: 1.08em;
 }
-
 .footer-text {
   padding: 5px;
   padding-top: 12px;
 }
-
 .high-price {
   font-size: 15px;
 }

@@ -1,0 +1,7 @@
+<gtav-circle-color 
+  class="circle"
+  *ngFor="let circle of list; let i = index" 
+  (click)="select(i)" 
+  [color]="circle.color" 
+  [selected]="circle.selected">
+</gtav-circle-color>
