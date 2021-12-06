@@ -79,7 +79,7 @@ Application Web (Angular using Material Design) - App at http://localhost:4200/
 
 ## Authors
 
-* **Mauricio Joost Wolff** - *Initial work* - [GitHub](https://github.com/thiswallz)
+* **M Joost Wolff** - *Initial work* - [GitHub](https://github.com/thiswallz)
 
 See also the list of [contributors](https://github.com/thiswallz/gta-v-legendary-motor-sport/contributors) who participated in this project.
 
