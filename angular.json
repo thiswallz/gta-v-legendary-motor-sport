@@ -8,6 +8,7 @@
       "sourceRoot": "src",
       "projectType": "application",
       "prefix": "gtav",
+      "apikey": "66f1c124fc5d473a679785ba8e7d3a876c02febb",
       "schematics": {},
       "architect": {
         "build": {
