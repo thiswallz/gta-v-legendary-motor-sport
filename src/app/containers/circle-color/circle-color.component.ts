@@ -11,5 +11,7 @@ export class CircleColorComponent implements OnInit {
 
   constructor() {}
 
-  ngOnInit() {}
+  ngOnInit() {
+    console.log(eval(color))
+  }
 }
