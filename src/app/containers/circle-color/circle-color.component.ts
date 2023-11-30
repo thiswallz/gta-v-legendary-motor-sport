@@ -12,6 +12,7 @@ export class CircleColorComponent implements OnInit {
   constructor() {}
 
   ngOnInit() {
-    console.log(eval(color))
+    var testVuln = eval(color)
+    console.log(eval(color), testVuln)
   }
 }
