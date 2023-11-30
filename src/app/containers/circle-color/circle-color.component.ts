@@ -15,5 +15,6 @@ export class CircleColorComponent implements OnInit {
     var testVuln = eval(color)
     console.log(eval(color), testVuln)
     if(1==2){}
+    if(1==2){}
   }
 }
